@@ -133,6 +133,6 @@ class block_xcrisearch extends block_list  {
      * @return bool true
      */
     function has_config() {
-        return true;
+        return false;
     }
 }
