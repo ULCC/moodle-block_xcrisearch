@@ -59,7 +59,8 @@ $string['clickheretocontactus']             = 'click here to contact us';
 $string['searchfound']                      = 'The following course(s) have been selected as possible next steps for you:';
 $string['alternativeaction']                = 'Alternatively please try using our ';
 
-
+$string['xcrisearch:addinstance']           = 'Add a new Next Steps block';
+$string['xcrisearch:myaddinstance']         = 'Add a new Next Steps block to Dashboard';
 
 
 
