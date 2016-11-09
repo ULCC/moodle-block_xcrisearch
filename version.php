@@ -11,5 +11,5 @@
  */
 
 
-$plugin->version    =   2014041501;
+$plugin->version    =   2014041502;
 $plugin->component = 'block_xcrisearch'; // Full name of the plugin (used for diagnostics)

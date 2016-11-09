@@ -37,6 +37,7 @@ class search_mform extends moodleform {
         $mform->setType('currentcourselevel', PARAM_INT);
 
         $mform->addElement('text', 'searchterm', get_string('searchterm', 'block_xcrisearch'));
+        $mform->setType('searchterm', PARAM_ALPHANUM);
 
         $buttonarray[] = &$mform->createElement('submit', 'submitbutton', get_string('submit'));
         $buttonarray[] = &$mform->createElement('cancel');

@@ -11,6 +11,8 @@ require_once('../../../config.php');
 
 global $CFG, $USER, $PAGE, $DB;
 
+$PAGE->set_context(context_system::instance());
+
 //include the search mform
 require_once($CFG->dirroot."/blocks/xcrisearch/classes/search_mform.php");
 
